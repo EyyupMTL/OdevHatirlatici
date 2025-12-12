@@ -2,7 +2,7 @@
   "name": "Ödev ve Sınav Hatırlatıcı",
   "short_name": "Hatırlatıcı",
   "description": "Ödevlerini ve sınavlarını takip et, bildirim al, ders programını gör.",
-  "start_url": "index.html",
+  "start_url": " /OdevHatirlatici/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
