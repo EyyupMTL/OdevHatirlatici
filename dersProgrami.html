@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ders Programı</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="container">
+    <h1>📅 Ders Programı</h1>
+
+    <form id="scheduleForm">
+        <select id="day">
+            <option>Pazartesi</option>
+            <option>Salı</option>
+            <option>Çarşamba</option>
+            <option>Perşembe</option>
+            <option>Cuma</option>
+        </select>
+
+        <input type="text" id="lesson" placeholder="Ders Adı" required>
+        <button type="submit">Ekle</button>
+    </form>
+
+    <h2>Program</h2>
+    <ul id="scheduleList"></ul>
+
+    <a class="backBtn" href="index.html">⬅ Ana Sayfa</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
